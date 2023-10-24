@@ -66,3 +66,4 @@ var currentTab = 0;
                    }
                    x[n].className += " active";
                }
+

@@ -14,13 +14,30 @@
 
 </head>
 <body>
+ <header>
+    <!-- As a heading -->
+<nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1"></span>
+    <img src="" alt="">
+</nav>
+ </header>
+
+
+<div>
+    <div style="height: 100%">
+        <ng-map center="41.876,-87.624" zoom="15" map-type-id="HYBRID" style="display:block; width: 100%; height:100%;">
+            <kml-layer url="http://googlemaps.github.io/js-v2-samples/ggeoxml/cta.kml"></kml-layer>
+        </ng-map>
+    </div>
+</div>
+
+
     <div class="container mt-5">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-8">
                 <form id="regForm">
                     <h1 id="register">Survey Form</h1>
-                    <div class="all-steps" id="all-steps"> 
-                      <span class="step"><i class="fa fa-user"></i></span> 
+                    <div class="all-steps" id="all-steps"> +
                       <span class="step"><i class="fa fa-map-marker"></i></span>
                       <span class="step"><i class="fa fa-shopping-bag"></i></span>
                       <span class="step"><i class="fa fa-car"></i></span>
@@ -71,6 +88,5 @@
             </div>
         </div>
     </div>
-
 </body>
 </html>
