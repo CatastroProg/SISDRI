@@ -1,8 +1,45 @@
 {
-"type": "FeatureCollection",
-"name": "Polígono.kml",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "Name": "Polígono sin título" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -66.110174864706707, -17.382478962757901 ], [ -66.110421902718002, -17.3833646069832 ], [ -66.109751798393404, -17.383530763271899 ], [ -66.109493498806899, -17.382703550698601 ], [ -66.110174864706707, -17.382478962757901 ] ] ] } }
-]
+    "type": "FeatureCollection",
+    "name": "Polígono.kml",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Polígono sin título"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -66.110174864706707,
+                            -17.382478962757901
+                        ],
+                        [
+                            -66.110421902718002,
+                            -17.3833646069832
+                        ],
+                        [
+                            -66.109751798393404,
+                            -17.383530763271899
+                        ],
+                        [
+                            -66.109493498806899,
+                            -17.382703550698601
+                        ],
+                        [
+                            -66.110174864706707,
+                            -17.382478962757901
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
 }
